@@ -10,7 +10,7 @@ import Match from "./routes/match";
 import Navbar from "./routes/navbar";
 import Pit from "./routes/pit";
 import Strategic from "./routes/strategic";
-
+import DtfTeams from "./routes/dtfTeams";
 function App() {
   return (
     <div
@@ -27,6 +27,9 @@ function App() {
         <Route path="/pit" element={<Pit />} />
         <Route path="/datalookup" element={<Datalookup />} />
         <Route path="/dtf" element={<Dtf />} />
+         <Route path="/dtfTeams" element={<DtfTeams />} />
+        <Route path="/dtf/teamParamsList" element={<DtfTeams />} />
+
       </Routes>
 
     </div>
